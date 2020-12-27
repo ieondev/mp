@@ -3803,8 +3803,9 @@ input, select, textarea {
 
 	#main2 {
 		position: relative;
+		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 100%;
+		max-width: 72rem;
 		z-index: 2;
 	}
 
