@@ -3075,7 +3075,7 @@ input, select, textarea {
 				}
 
 				table td {
-					font-size: 0.75rem;
+					font-size: 0.9rem;
 				}
 
 			}
@@ -3803,9 +3803,8 @@ input, select, textarea {
 
 	#main2 {
 		position: relative;
-		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 100%;
 		z-index: 2;
 	}
 
@@ -3930,13 +3929,13 @@ input, select, textarea {
 
 				#main > .posts > * {
 					width: 50%;
-					font-size: 0.75rem;
+					font-size: 0.9rem;
 				}
 
 				#main > .posts > * {
 					padding: 2.5rem;
 					width: 50%;
-					font-size: 0.75rem;
+					font-size: 0.9rem;
 				}
 
 			}
@@ -3945,13 +3944,13 @@ input, select, textarea {
 
 				#main > .posts > * {
 					width: 100%;
-					font-size: 0.75rem;
+					font-size: 0.9rem;
 				}
 
 				#main > .posts > * {
 					padding: 2rem;
 					width: 100%;
-					font-size: 0.75rem;
+					font-size: 0.9rem;
 				}
 
 				#main > .posts > article:nth-child(2n - 1) {
@@ -3982,7 +3981,7 @@ input, select, textarea {
 
 			#main > * {
 				padding: 2rem 2rem 0.1rem 2rem ;
-				font-size: 0.75rem;
+				font-size: 0.9rem;
 			}
 
 		}
@@ -3991,7 +3990,7 @@ input, select, textarea {
 
 			#main {
 				width: 100%;
-				font-size: 0.75rem;
+				font-size: 0.9rem;
 			}
 
 		}
