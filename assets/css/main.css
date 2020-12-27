@@ -2206,7 +2206,7 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
+		background-color: #ffffff;
 		box-shadow: inset 0 0 0 2px #212931;
 		color: #212931 !important;
 	}
@@ -2960,7 +2960,7 @@ input, select, textarea {
 		}
 
 		header > h3 + p {
-			font-size: 0.9rem;
+			font-size: 1.9rem;
 			margin-top: -0.75rem;
 		}
 
@@ -3030,6 +3030,14 @@ input, select, textarea {
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+		border: 2px solid black;
+		height: 100%;
+		padding: 1rem;
+	}
+
+	.table-wrapper2 {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
 	}
 
 	table {
@@ -3042,7 +3050,7 @@ input, select, textarea {
 			border-left: 0;
 			border-right: 0;
 			line-height: 1.75;
-			font-size: 0.9rem;
+			font-size: 1rem;
 		}
 
 		table td {
@@ -3051,7 +3059,7 @@ input, select, textarea {
 
 		table th {
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			font-size: 1rem;
+			font-size: 1.1rem;
 			font-weight: 900;
 			letter-spacing: 0;
 			line-height: 1.5;
@@ -3063,7 +3071,7 @@ input, select, textarea {
 			@media screen and (max-width: 980px) {
 
 				table th {
-					font-size: 0.9rem;
+					font-size: 1rem;
 				}
 
 			}
@@ -3542,10 +3550,7 @@ input, select, textarea {
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		height: 15rem;
 		padding-bottom: 7rem;
-		padding-right: 9rem;
-		position: relative;
 		text-align: right;
 		z-index: 2;
 	}
@@ -3785,6 +3790,14 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
+		position: relative;
+		margin: 0 auto;
+		width: calc(100% - 4rem);
+		max-width: 72rem;
+		z-index: 2;
+	}
+
+	#main2 {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
