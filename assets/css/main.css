@@ -150,7 +150,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
-		font-size: 1rem;
+		font-size: 0.9rem;
 		line-height: 2.375;
 	}
 
@@ -298,7 +298,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #cb0b12 !important;
 		}
 
 	strong, b {
@@ -319,7 +319,7 @@ input, select, textarea {
 	}
 
 	hr {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: #cb0b12;
 	}
 
 /* Row */
@@ -2216,8 +2216,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #cb0b12;
+			color: #cb0b12 !important;
 		}
 
 		input[type="submit"].primary,
@@ -2235,7 +2235,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: #cb0b12;
 			}
 
 /* Form */
@@ -2255,7 +2255,7 @@ input, select, textarea {
 .separator::before, .separator::after {
     content: '';
     flex: 1;
-    border-bottom: 3px solid #000000;
+    border-bottom: 3px solid #cb0b12;
 }
 .separator::before {
     margin-right: 0.75em;
@@ -2360,6 +2360,7 @@ input, select, textarea {
 	input[type="email"],
 	select,
 	textarea {
+		resize: none;
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2516,7 +2517,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #18bfef;
+			border-color: #cb0b12;
 		}
 
 	select {
@@ -2551,7 +2552,7 @@ input, select, textarea {
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #18bfef;
+		border-color: #cb0b12;
 	}
 
 	::-webkit-input-placeholder {
@@ -2915,7 +2916,7 @@ input, select, textarea {
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #18bfef;
+		color: #cb0b12;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2923,7 +2924,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #18bfef;
+		box-shadow: inset 0 0 0 2px #cb0b12;
 	}
 
 /* Section/Article */
@@ -3236,14 +3237,14 @@ input, select, textarea {
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: #cb0b12 !important;
+			border-color: #cb0b12;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a,
 			.pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #cb0b12;
 			}
 
 		.pagination a.active {
@@ -3363,7 +3364,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #cb0b12 !important;
 			}
 
 		#intro strong, #intro b {
@@ -3402,8 +3403,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #cb0b12;
+				color: #cb0b12 !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3421,7 +3422,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #cb0b12;
 				}
 
 		#intro h1 {
@@ -3570,7 +3571,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #cb0b12 !important;
 			}
 
 		#header strong, #header b {
@@ -3614,8 +3615,8 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: #cb0b12 !important;
+				color: #cb0b12 !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3669,7 +3670,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #cb0b12;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3677,7 +3678,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #cb0b12;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3691,7 +3692,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #cb0b12 !important;
 			}
 
 		#nav strong, #nav b {
@@ -3767,7 +3768,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #cb0b12 !important;
 						}
 
 		#nav ul.icons {
@@ -4009,7 +4010,6 @@ input, select, textarea {
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -4025,7 +4025,7 @@ input, select, textarea {
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #cb0b12 !important;
 			}
 
 		#footer strong, #footer b {
@@ -4068,8 +4068,8 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #cb0b12;
+				color: #cb0b12 !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4087,7 +4087,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #cb0b12;
 				}
 
 		#footer label {
@@ -4107,7 +4107,7 @@ input, select, textarea {
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #18bfef;
+				border-color: #cb0b12;
 			}
 
 		#footer select {
@@ -4142,7 +4142,7 @@ input, select, textarea {
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: #cb0b12;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -4170,7 +4170,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #cb0b12;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4178,7 +4178,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #cb0b12;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4218,14 +4218,14 @@ input, select, textarea {
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: #cb0b12 !important;
+				border-color: #cb0b12;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a,
 				#footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: #cb0b12;
 				}
 
 			#footer .pagination a.active {
@@ -4251,10 +4251,13 @@ input, select, textarea {
 			flex-shrink: 1;
 			padding: 2rem 4rem 0rem 4rem ;
 			border-left: solid 2px #e2e2e2;
+			border-right: solid 2px #e2e2e2;
+			border-top: solid 2px #e2e2e2;
+			border-bottom: solid 2px #e2e2e2;
 		}
 
 			#footer > section:first-child {
-				border-left: 0;
+				border-left: solid 2px #e2e2e2;
 			}
 
 			#footer > section.split {
@@ -4462,7 +4465,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #cb0b12 !important;
 			}
 
 		#copyright strong, #copyright b {
